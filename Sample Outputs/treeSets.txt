@@ -1,0 +1,1180 @@
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: treeTests.TreeSetAll.TreeInsert
+
+# Run progress: 0.00% complete, ETA 00:45:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 2.703 ops/s
+# Warmup Iteration   2: 2.546 ops/s
+# Warmup Iteration   3: 2.845 ops/s
+# Warmup Iteration   4: 2.850 ops/s
+# Warmup Iteration   5: 2.271 ops/s
+Iteration   1: 2.490 ops/s
+Iteration   2: 2.178 ops/s
+Iteration   3: 3.023 ops/s
+Iteration   4: 3.308 ops/s
+Iteration   5: 3.368 ops/s
+
+# Run progress: 3.70% complete, ETA 03:55:45
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 2.791 ops/s
+# Warmup Iteration   2: 2.683 ops/s
+# Warmup Iteration   3: 2.666 ops/s
+# Warmup Iteration   4: 2.893 ops/s
+# Warmup Iteration   5: 2.419 ops/s
+Iteration   1: 3.014 ops/s
+Iteration   2: 2.742 ops/s
+Iteration   3: 3.025 ops/s
+Iteration   4: 2.214 ops/s
+Iteration   5: 2.966 ops/s
+
+# Run progress: 7.41% complete, ETA 02:16:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.851 ops/s
+# Warmup Iteration   2: 2.713 ops/s
+# Warmup Iteration   3: 3.035 ops/s
+# Warmup Iteration   4: 2.779 ops/s
+# Warmup Iteration   5: 2.691 ops/s
+Iteration   1: 2.460 ops/s
+Iteration   2: 2.525 ops/s
+Iteration   3: 2.815 ops/s
+Iteration   4: 3.353 ops/s
+Iteration   5: 2.743 ops/s
+
+
+Result "treeTests.TreeSetAll.TreeInsert":
+  2.779 ±(99.9%) 1.360 ops/s [Average]
+  (min, avg, max) = (2.460, 2.779, 3.353), stdev = 0.353
+  CI (99.9%): [1.419, 4.139] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: treeTests.TreeSetAll.TreeSearch
+
+# Run progress: 11.11% complete, ETA 01:42:32
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 52.831 ops/ms
+# Warmup Iteration   2: 45.693 ops/ms
+# Warmup Iteration   3: 65.976 ops/ms
+# Warmup Iteration   4: 65.914 ops/ms
+# Warmup Iteration   5: 60.397 ops/ms
+Iteration   1: 65.852 ops/ms
+Iteration   2: 60.554 ops/ms
+Iteration   3: 40.115 ops/ms
+Iteration   4: 66.038 ops/ms
+Iteration   5: 65.482 ops/ms
+
+# Run progress: 14.81% complete, ETA 01:23:58
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 55.336 ops/ms
+# Warmup Iteration   2: 63.753 ops/ms
+# Warmup Iteration   3: 65.299 ops/ms
+# Warmup Iteration   4: 65.117 ops/ms
+# Warmup Iteration   5: 58.626 ops/ms
+Iteration   1: 61.620 ops/ms
+Iteration   2: 65.482 ops/ms
+Iteration   3: 61.893 ops/ms
+Iteration   4: 65.299 ops/ms
+Iteration   5: 61.136 ops/ms
+
+# Run progress: 18.52% complete, ETA 01:12:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 53.722 ops/ms
+# Warmup Iteration   2: 40.462 ops/ms
+# Warmup Iteration   3: 55.910 ops/ms
+# Warmup Iteration   4: 65.358 ops/ms
+# Warmup Iteration   5: 63.578 ops/ms
+Iteration   1: 59.880 ops/ms
+Iteration   2: 65.421 ops/ms
+Iteration   3: 53.557 ops/ms
+Iteration   4: 65.299 ops/ms
+Iteration   5: 54.179 ops/ms
+
+
+Result "treeTests.TreeSetAll.TreeSearch":
+  59.667 ±(99.9%) 22.147 ops/ms [Average]
+  (min, avg, max) = (53.557, 59.667, 65.421), stdev = 5.751
+  CI (99.9%): [37.521, 81.814] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: treeTests.TreeSetAll.TreeSort
+
+# Run progress: 22.22% complete, ETA 01:03:37
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 118.793 ops/s
+# Warmup Iteration   2: 175.702 ops/s
+# Warmup Iteration   3: 131.608 ops/s
+# Warmup Iteration   4: 129.848 ops/s
+# Warmup Iteration   5: 108.996 ops/s
+Iteration   1: 117.890 ops/s
+Iteration   2: 126.784 ops/s
+Iteration   3: 112.311 ops/s
+Iteration   4: 118.620 ops/s
+Iteration   5: 130.295 ops/s
+
+# Run progress: 25.93% complete, ETA 00:57:03
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 114.481 ops/s
+# Warmup Iteration   2: 131.624 ops/s
+# Warmup Iteration   3: 131.683 ops/s
+# Warmup Iteration   4: 121.792 ops/s
+# Warmup Iteration   5: 121.851 ops/s
+Iteration   1: 125.343 ops/s
+Iteration   2: 124.714 ops/s
+Iteration   3: 127.214 ops/s
+Iteration   4: 120.419 ops/s
+Iteration   5: 116.045 ops/s
+
+# Run progress: 29.63% complete, ETA 00:51:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 107.297 ops/s
+# Warmup Iteration   2: 125.576 ops/s
+# Warmup Iteration   3: 110.211 ops/s
+# Warmup Iteration   4: 113.046 ops/s
+# Warmup Iteration   5: 146.373 ops/s
+Iteration   1: 108.944 ops/s
+Iteration   2: 119.012 ops/s
+Iteration   3: 121.968 ops/s
+Iteration   4: 149.603 ops/s
+Iteration   5: 103.893 ops/s
+
+
+Result "treeTests.TreeSetAll.TreeSort":
+  120.684 ±(99.9%) 68.356 ops/s [Average]
+  (min, avg, max) = (103.893, 120.684, 149.603), stdev = 17.752
+  CI (99.9%): [52.328, 189.040] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: treeTests.TreeSetAll.TreeInsert
+
+# Run progress: 33.33% complete, ETA 00:47:04
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.349 s/op
+# Warmup Iteration   2: 0.364 s/op
+# Warmup Iteration   3: 0.344 s/op
+# Warmup Iteration   4: 0.388 s/op
+# Warmup Iteration   5: 0.398 s/op
+Iteration   1: 0.456 s/op
+Iteration   2: 0.388 s/op
+Iteration   3: 0.440 s/op
+Iteration   4: 0.502 s/op
+Iteration   5: 0.376 s/op
+
+# Run progress: 37.04% complete, ETA 00:43:13
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.352 s/op
+# Warmup Iteration   2: 0.368 s/op
+# Warmup Iteration   3: 0.375 s/op
+# Warmup Iteration   4: 0.388 s/op
+# Warmup Iteration   5: 0.310 s/op
+Iteration   1: 0.364 s/op
+Iteration   2: 0.395 s/op
+Iteration   3: 0.312 s/op
+Iteration   4: 0.328 s/op
+Iteration   5: 0.395 s/op
+
+# Run progress: 40.74% complete, ETA 00:39:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.357 s/op
+# Warmup Iteration   2: 0.375 s/op
+# Warmup Iteration   3: 0.363 s/op
+# Warmup Iteration   4: 0.354 s/op
+# Warmup Iteration   5: 0.314 s/op
+Iteration   1: 0.405 s/op
+Iteration   2: 0.391 s/op
+Iteration   3: 0.436 s/op
+Iteration   4: 0.449 s/op
+Iteration   5: 0.451 s/op
+
+
+Result "treeTests.TreeSetAll.TreeInsert":
+  0.426 ±(99.9%) 0.104 s/op [Average]
+  (min, avg, max) = (0.391, 0.426, 0.451), stdev = 0.027
+  CI (99.9%): [0.322, 0.530] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: treeTests.TreeSetAll.TreeSearch
+
+# Run progress: 44.44% complete, ETA 00:36:24
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.019 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.016 ms/op
+# Warmup Iteration   4: 0.016 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.018 ms/op
+Iteration   2: 0.019 ms/op
+Iteration   3: 0.018 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 48.15% complete, ETA 00:33:16
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.014 ms/op
+# Warmup Iteration   3: 0.014 ms/op
+# Warmup Iteration   4: 0.014 ms/op
+# Warmup Iteration   5: 0.013 ms/op
+Iteration   1: 0.013 ms/op
+Iteration   2: 0.014 ms/op
+Iteration   3: 0.014 ms/op
+Iteration   4: 0.014 ms/op
+Iteration   5: 0.014 ms/op
+
+# Run progress: 51.85% complete, ETA 00:30:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.019 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.018 ms/op
+Iteration   4: 0.022 ms/op
+Iteration   5: 0.016 ms/op
+
+
+Result "treeTests.TreeSetAll.TreeSearch":
+  0.017 ±(99.9%) 0.012 ms/op [Average]
+  (min, avg, max) = (0.015, 0.017, 0.022), stdev = 0.003
+  CI (99.9%): [0.005, 0.029] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: treeTests.TreeSetAll.TreeSort
+
+# Run progress: 55.55% complete, ETA 00:27:32
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.008 s/op
+# Warmup Iteration   2: 0.007 s/op
+# Warmup Iteration   3: 0.007 s/op
+# Warmup Iteration   4: 0.007 s/op
+# Warmup Iteration   5: 0.008 s/op
+Iteration   1: 0.009 s/op
+Iteration   2: 0.009 s/op
+Iteration   3: 0.007 s/op
+Iteration   4: 0.009 s/op
+Iteration   5: 0.009 s/op
+
+# Run progress: 59.26% complete, ETA 00:24:54
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.008 s/op
+# Warmup Iteration   2: 0.006 s/op
+# Warmup Iteration   3: 0.008 s/op
+# Warmup Iteration   4: 0.009 s/op
+# Warmup Iteration   5: 0.008 s/op
+Iteration   1: 0.009 s/op
+Iteration   2: 0.009 s/op
+Iteration   3: 0.007 s/op
+Iteration   4: 0.009 s/op
+Iteration   5: 0.008 s/op
+
+# Run progress: 62.96% complete, ETA 00:22:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 s/op
+# Warmup Iteration   2: 0.007 s/op
+# Warmup Iteration   3: 0.008 s/op
+# Warmup Iteration   4: 0.009 s/op
+# Warmup Iteration   5: 0.008 s/op
+Iteration   1: 0.008 s/op
+Iteration   2: 0.008 s/op
+Iteration   3: 0.006 s/op
+Iteration   4: 0.008 s/op
+Iteration   5: 0.009 s/op
+
+
+Result "treeTests.TreeSetAll.TreeSort":
+  0.008 ±(99.9%) 0.004 s/op [Average]
+  (min, avg, max) = (0.006, 0.008, 0.009), stdev = 0.001
+  CI (99.9%): [0.004, 0.011] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: treeTests.TreeSetAll.TreeInsert
+
+# Run progress: 66.67% complete, ETA 00:19:53
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.351 ±(99.9%) 0.231 s/op
+# Warmup Iteration   2: 0.368 ±(99.9%) 0.243 s/op
+# Warmup Iteration   3: 0.371 ±(99.9%) 0.186 s/op
+# Warmup Iteration   4: 0.416 ±(99.9%) 0.264 s/op
+# Warmup Iteration   5: 0.413 ±(99.9%) 0.244 s/op
+Iteration   1: 0.394 ±(99.9%) 0.291 s/op
+                 TreeInsert·p0.00:   0.290 s/op
+                 TreeInsert·p0.50:   0.395 s/op
+                 TreeInsert·p0.90:   0.506 s/op
+                 TreeInsert·p0.95:   0.506 s/op
+                 TreeInsert·p0.99:   0.506 s/op
+                 TreeInsert·p0.999:  0.506 s/op
+                 TreeInsert·p0.9999: 0.506 s/op
+                 TreeInsert·p1.00:   0.506 s/op
+
+Iteration   2: 0.339 ±(99.9%) 0.159 s/op
+                 TreeInsert·p0.00:   0.291 s/op
+                 TreeInsert·p0.50:   0.326 s/op
+                 TreeInsert·p0.90:   0.445 s/op
+                 TreeInsert·p0.95:   0.445 s/op
+                 TreeInsert·p0.99:   0.445 s/op
+                 TreeInsert·p0.999:  0.445 s/op
+                 TreeInsert·p0.9999: 0.445 s/op
+                 TreeInsert·p1.00:   0.445 s/op
+
+Iteration   3: 0.298 ±(99.9%) 0.042 s/op
+                 TreeInsert·p0.00:   0.288 s/op
+                 TreeInsert·p0.50:   0.292 s/op
+                 TreeInsert·p0.90:   0.328 s/op
+                 TreeInsert·p0.95:   0.328 s/op
+                 TreeInsert·p0.99:   0.328 s/op
+                 TreeInsert·p0.999:  0.328 s/op
+                 TreeInsert·p0.9999: 0.328 s/op
+                 TreeInsert·p1.00:   0.328 s/op
+
+Iteration   4: 0.391 ±(99.9%) 0.304 s/op
+                 TreeInsert·p0.00:   0.291 s/op
+                 TreeInsert·p0.50:   0.388 s/op
+                 TreeInsert·p0.90:   0.498 s/op
+                 TreeInsert·p0.95:   0.498 s/op
+                 TreeInsert·p0.99:   0.498 s/op
+                 TreeInsert·p0.999:  0.498 s/op
+                 TreeInsert·p0.9999: 0.498 s/op
+                 TreeInsert·p1.00:   0.498 s/op
+
+Iteration   5: 0.325 ±(99.9%) 0.149 s/op
+                 TreeInsert·p0.00:   0.288 s/op
+                 TreeInsert·p0.50:   0.307 s/op
+                 TreeInsert·p0.90:   0.427 s/op
+                 TreeInsert·p0.95:   0.427 s/op
+                 TreeInsert·p0.99:   0.427 s/op
+                 TreeInsert·p0.999:  0.427 s/op
+                 TreeInsert·p0.9999: 0.427 s/op
+                 TreeInsert·p1.00:   0.427 s/op
+
+
+# Run progress: 70.37% complete, ETA 00:17:33
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.349 ±(99.9%) 0.242 s/op
+# Warmup Iteration   2: 0.340 ±(99.9%) 0.169 s/op
+# Warmup Iteration   3: 0.333 ±(99.9%) 0.243 s/op
+# Warmup Iteration   4: 0.374 ±(99.9%) 0.207 s/op
+# Warmup Iteration   5: 0.408 ±(99.9%) 0.283 s/op
+Iteration   1: 0.454 ±(99.9%) 0.331 s/op
+                 TreeInsert·p0.00:   0.305 s/op
+                 TreeInsert·p0.50:   0.486 s/op
+                 TreeInsert·p0.90:   0.519 s/op
+                 TreeInsert·p0.95:   0.519 s/op
+                 TreeInsert·p0.99:   0.519 s/op
+                 TreeInsert·p0.999:  0.519 s/op
+                 TreeInsert·p0.9999: 0.519 s/op
+                 TreeInsert·p1.00:   0.519 s/op
+
+Iteration   2: 0.317 ±(99.9%) 0.062 s/op
+                 TreeInsert·p0.00:   0.291 s/op
+                 TreeInsert·p0.50:   0.318 s/op
+                 TreeInsert·p0.90:   0.339 s/op
+                 TreeInsert·p0.95:   0.339 s/op
+                 TreeInsert·p0.99:   0.339 s/op
+                 TreeInsert·p0.999:  0.339 s/op
+                 TreeInsert·p0.9999: 0.339 s/op
+                 TreeInsert·p1.00:   0.339 s/op
+
+Iteration   3: 0.355 ±(99.9%) 0.276 s/op
+                 TreeInsert·p0.00:   0.289 s/op
+                 TreeInsert·p0.50:   0.293 s/op
+                 TreeInsert·p0.90:   0.489 s/op
+                 TreeInsert·p0.95:   0.489 s/op
+                 TreeInsert·p0.99:   0.489 s/op
+                 TreeInsert·p0.999:  0.489 s/op
+                 TreeInsert·p0.9999: 0.489 s/op
+                 TreeInsert·p1.00:   0.489 s/op
+
+Iteration   4: 0.404 ±(99.9%) 0.334 s/op
+                 TreeInsert·p0.00:   0.292 s/op
+                 TreeInsert·p0.50:   0.382 s/op
+                 TreeInsert·p0.90:   0.571 s/op
+                 TreeInsert·p0.95:   0.571 s/op
+                 TreeInsert·p0.99:   0.571 s/op
+                 TreeInsert·p0.999:  0.571 s/op
+                 TreeInsert·p0.9999: 0.571 s/op
+                 TreeInsert·p1.00:   0.571 s/op
+
+Iteration   5: 0.381 ±(99.9%) 0.244 s/op
+                 TreeInsert·p0.00:   0.300 s/op
+                 TreeInsert·p0.50:   0.370 s/op
+                 TreeInsert·p0.90:   0.491 s/op
+                 TreeInsert·p0.95:   0.491 s/op
+                 TreeInsert·p0.99:   0.491 s/op
+                 TreeInsert·p0.999:  0.491 s/op
+                 TreeInsert·p0.9999: 0.491 s/op
+                 TreeInsert·p1.00:   0.491 s/op
+
+
+# Run progress: 74.07% complete, ETA 00:15:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.356 ±(99.9%) 0.244 s/op
+# Warmup Iteration   2: 0.378 ±(99.9%) 0.239 s/op
+# Warmup Iteration   3: 0.379 ±(99.9%) 0.238 s/op
+# Warmup Iteration   4: 0.402 ±(99.9%) 0.278 s/op
+# Warmup Iteration   5: 0.355 ±(99.9%) 0.183 s/op
+Iteration   1: 0.344 ±(99.9%) 0.194 s/op
+                 TreeInsert·p0.00:   0.294 s/op
+                 TreeInsert·p0.50:   0.305 s/op
+                 TreeInsert·p0.90:   0.438 s/op
+                 TreeInsert·p0.95:   0.438 s/op
+                 TreeInsert·p0.99:   0.438 s/op
+                 TreeInsert·p0.999:  0.438 s/op
+                 TreeInsert·p0.9999: 0.438 s/op
+                 TreeInsert·p1.00:   0.438 s/op
+
+Iteration   2: 0.353 ±(99.9%) 0.235 s/op
+                 TreeInsert·p0.00:   0.290 s/op
+                 TreeInsert·p0.50:   0.309 s/op
+                 TreeInsert·p0.90:   0.465 s/op
+                 TreeInsert·p0.95:   0.465 s/op
+                 TreeInsert·p0.99:   0.465 s/op
+                 TreeInsert·p0.999:  0.465 s/op
+                 TreeInsert·p0.9999: 0.465 s/op
+                 TreeInsert·p1.00:   0.465 s/op
+
+Iteration   3: 0.336 ±(99.9%) 0.172 s/op
+                 TreeInsert·p0.00:   0.289 s/op
+                 TreeInsert·p0.50:   0.318 s/op
+                 TreeInsert·p0.90:   0.449 s/op
+                 TreeInsert·p0.95:   0.449 s/op
+                 TreeInsert·p0.99:   0.449 s/op
+                 TreeInsert·p0.999:  0.449 s/op
+                 TreeInsert·p0.9999: 0.449 s/op
+                 TreeInsert·p1.00:   0.449 s/op
+
+Iteration   4: 0.294 ±(99.9%) 0.024 s/op
+                 TreeInsert·p0.00:   0.290 s/op
+                 TreeInsert·p0.50:   0.291 s/op
+                 TreeInsert·p0.90:   0.312 s/op
+                 TreeInsert·p0.95:   0.312 s/op
+                 TreeInsert·p0.99:   0.312 s/op
+                 TreeInsert·p0.999:  0.312 s/op
+                 TreeInsert·p0.9999: 0.312 s/op
+                 TreeInsert·p1.00:   0.312 s/op
+
+Iteration   5: 0.500 ±(99.9%) 0.096 s/op
+                 TreeInsert·p0.00:   0.478 s/op
+                 TreeInsert·p0.50:   0.494 s/op
+                 TreeInsert·p0.90:   0.534 s/op
+                 TreeInsert·p0.95:   0.534 s/op
+                 TreeInsert·p0.99:   0.534 s/op
+                 TreeInsert·p0.999:  0.534 s/op
+                 TreeInsert·p0.9999: 0.534 s/op
+                 TreeInsert·p1.00:   0.534 s/op
+
+
+
+Result "treeTests.TreeSetAll.TreeInsert":
+  N = 29
+  mean =      0.361 ±(99.9%) 0.059 s/op
+
+  Histogram, s/op:
+    [0.200, 0.225) = 0
+    [0.225, 0.250) = 0
+    [0.250, 0.275) = 0
+    [0.275, 0.300) = 14
+    [0.300, 0.325) = 2
+    [0.325, 0.350) = 2
+    [0.350, 0.375) = 1
+    [0.375, 0.400) = 0
+    [0.400, 0.425) = 0
+    [0.425, 0.450) = 3
+    [0.450, 0.475) = 2
+    [0.475, 0.500) = 3
+    [0.500, 0.525) = 1
+    [0.525, 0.550) = 1
+    [0.550, 0.575) = 0
+    [0.575, 0.600) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =      0.289 s/op
+     p(50.0000) =      0.311 s/op
+     p(90.0000) =      0.494 s/op
+     p(95.0000) =      0.526 s/op
+     p(99.0000) =      0.534 s/op
+     p(99.9000) =      0.534 s/op
+     p(99.9900) =      0.534 s/op
+     p(99.9990) =      0.534 s/op
+     p(99.9999) =      0.534 s/op
+    p(100.0000) =      0.534 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: treeTests.TreeSetAll.TreeSearch
+
+# Run progress: 77.78% complete, ETA 00:12:58
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.017 ±(99.9%) 0.018 ms/op
+# Warmup Iteration   2: 0.017 ±(99.9%) 0.032 ms/op
+# Warmup Iteration   3: 0.010 ±(99.9%) 0.001 ms/op
+# Warmup Iteration   4: 0.010 ±(99.9%) 0.001 ms/op
+# Warmup Iteration   5: 0.012 ±(99.9%) 0.004 ms/op
+Iteration   1: 0.011 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   2: 0.011 ±(99.9%) 0.006 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.016 ms/op
+                 TreeSearch·p0.95:   0.016 ms/op
+                 TreeSearch·p0.99:   0.016 ms/op
+                 TreeSearch·p0.999:  0.016 ms/op
+                 TreeSearch·p0.9999: 0.016 ms/op
+                 TreeSearch·p1.00:   0.016 ms/op
+
+Iteration   3: 0.011 ±(99.9%) 0.002 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   4: 0.011 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   5: 0.010 ±(99.9%) 0.002 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+
+# Run progress: 81.48% complete, ETA 00:10:43
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.018 ±(99.9%) 0.023 ms/op
+# Warmup Iteration   2: 0.062 ±(99.9%) 0.101 ms/op
+# Warmup Iteration   3: 0.010 ±(99.9%) 0.001 ms/op
+# Warmup Iteration   4: 0.011 ±(99.9%) 0.002 ms/op
+# Warmup Iteration   5: 0.011 ±(99.9%) 0.002 ms/op
+Iteration   1: 0.010 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   2: 0.010 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   3: 0.010 ±(99.9%) 0.002 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   4: 0.011 ±(99.9%) 0.006 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.016 ms/op
+                 TreeSearch·p0.95:   0.016 ms/op
+                 TreeSearch·p0.99:   0.016 ms/op
+                 TreeSearch·p0.999:  0.016 ms/op
+                 TreeSearch·p0.9999: 0.016 ms/op
+                 TreeSearch·p1.00:   0.016 ms/op
+
+Iteration   5: 0.012 ±(99.9%) 0.006 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.017 ms/op
+                 TreeSearch·p0.95:   0.017 ms/op
+                 TreeSearch·p0.99:   0.017 ms/op
+                 TreeSearch·p0.999:  0.017 ms/op
+                 TreeSearch·p0.9999: 0.017 ms/op
+                 TreeSearch·p1.00:   0.017 ms/op
+
+
+# Run progress: 85.18% complete, ETA 00:08:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.018 ±(99.9%) 0.025 ms/op
+# Warmup Iteration   2: 0.027 ±(99.9%) 0.065 ms/op
+# Warmup Iteration   3: 0.011 ±(99.9%) 0.004 ms/op
+# Warmup Iteration   4: 0.010 ±(99.9%) 0.001 ms/op
+# Warmup Iteration   5: 0.011 ±(99.9%) 0.002 ms/op
+Iteration   1: 0.011 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   2: 0.010 ±(99.9%) 0.002 ms/op
+                 TreeSearch·p0.00:   0.009 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+Iteration   3: 0.012 ±(99.9%) 0.005 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.016 ms/op
+                 TreeSearch·p0.95:   0.016 ms/op
+                 TreeSearch·p0.99:   0.016 ms/op
+                 TreeSearch·p0.999:  0.016 ms/op
+                 TreeSearch·p0.9999: 0.016 ms/op
+                 TreeSearch·p1.00:   0.016 ms/op
+
+Iteration   4: 0.011 ±(99.9%) 0.004 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.011 ms/op
+                 TreeSearch·p0.90:   0.014 ms/op
+                 TreeSearch·p0.95:   0.014 ms/op
+                 TreeSearch·p0.99:   0.014 ms/op
+                 TreeSearch·p0.999:  0.014 ms/op
+                 TreeSearch·p0.9999: 0.014 ms/op
+                 TreeSearch·p1.00:   0.014 ms/op
+
+Iteration   5: 0.010 ±(99.9%) 0.001 ms/op
+                 TreeSearch·p0.00:   0.010 ms/op
+                 TreeSearch·p0.50:   0.010 ms/op
+                 TreeSearch·p0.90:   0.011 ms/op
+                 TreeSearch·p0.95:   0.011 ms/op
+                 TreeSearch·p0.99:   0.011 ms/op
+                 TreeSearch·p0.999:  0.011 ms/op
+                 TreeSearch·p0.9999: 0.011 ms/op
+                 TreeSearch·p1.00:   0.011 ms/op
+
+
+
+Result "treeTests.TreeSetAll.TreeSearch":
+  N = 34
+  mean =      0.011 ±(99.9%) 0.001 ms/op
+
+  Histogram, ms/op:
+    [0.009, 0.010) = 1
+    [0.010, 0.010) = 7
+    [0.010, 0.011) = 13
+    [0.011, 0.011) = 5
+    [0.011, 0.012) = 4
+    [0.012, 0.012) = 0
+    [0.012, 0.013) = 1
+    [0.013, 0.013) = 0
+    [0.013, 0.014) = 1
+    [0.014, 0.014) = 0
+    [0.014, 0.015) = 1
+    [0.015, 0.015) = 0
+    [0.015, 0.016) = 0
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.009 ms/op
+     p(50.0000) =      0.010 ms/op
+     p(90.0000) =      0.013 ms/op
+     p(95.0000) =      0.015 ms/op
+     p(99.0000) =      0.016 ms/op
+     p(99.9000) =      0.016 ms/op
+     p(99.9900) =      0.016 ms/op
+     p(99.9990) =      0.016 ms/op
+     p(99.9999) =      0.016 ms/op
+    p(100.0000) =      0.016 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: treeTests.TreeSetAll.TreeSort
+
+# Run progress: 88.89% complete, ETA 00:06:20
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.008 ±(99.9%) 0.010 s/op
+# Warmup Iteration   2: 0.011 ±(99.9%) 0.011 s/op
+# Warmup Iteration   3: 0.013 ±(99.9%) 0.008 s/op
+# Warmup Iteration   4: 0.012 ±(99.9%) 0.012 s/op
+# Warmup Iteration   5: 0.013 ±(99.9%) 0.008 s/op
+Iteration   1: 0.016 ±(99.9%) 0.004 s/op
+                 TreeSort·p0.00:   0.013 s/op
+                 TreeSort·p0.50:   0.016 s/op
+                 TreeSort·p0.90:   0.018 s/op
+                 TreeSort·p0.95:   0.018 s/op
+                 TreeSort·p0.99:   0.018 s/op
+                 TreeSort·p0.999:  0.018 s/op
+                 TreeSort·p0.9999: 0.018 s/op
+                 TreeSort·p1.00:   0.018 s/op
+
+Iteration   2: 0.014 ±(99.9%) 0.008 s/op
+                 TreeSort·p0.00:   0.008 s/op
+                 TreeSort·p0.50:   0.015 s/op
+                 TreeSort·p0.90:   0.018 s/op
+                 TreeSort·p0.95:   0.018 s/op
+                 TreeSort·p0.99:   0.018 s/op
+                 TreeSort·p0.999:  0.018 s/op
+                 TreeSort·p0.9999: 0.018 s/op
+                 TreeSort·p1.00:   0.018 s/op
+
+Iteration   3: 0.011 ±(99.9%) 0.012 s/op
+                 TreeSort·p0.00:   0.005 s/op
+                 TreeSort·p0.50:   0.011 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   4: 0.014 ±(99.9%) 0.010 s/op
+                 TreeSort·p0.00:   0.005 s/op
+                 TreeSort·p0.50:   0.016 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   5: 0.015 ±(99.9%) 0.007 s/op
+                 TreeSort·p0.00:   0.009 s/op
+                 TreeSort·p0.50:   0.017 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+
+# Run progress: 92.59% complete, ETA 00:04:12
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.008 ±(99.9%) 0.009 s/op
+# Warmup Iteration   2: 0.010 ±(99.9%) 0.012 s/op
+# Warmup Iteration   3: 0.014 ±(99.9%) 0.008 s/op
+# Warmup Iteration   4: 0.013 ±(99.9%) 0.010 s/op
+# Warmup Iteration   5: 0.014 ±(99.9%) 0.009 s/op
+Iteration   1: 0.015 ±(99.9%) 0.007 s/op
+                 TreeSort·p0.00:   0.010 s/op
+                 TreeSort·p0.50:   0.016 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   2: 0.013 ±(99.9%) 0.009 s/op
+                 TreeSort·p0.00:   0.007 s/op
+                 TreeSort·p0.50:   0.016 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   3: 0.013 ±(99.9%) 0.012 s/op
+                 TreeSort·p0.00:   0.005 s/op
+                 TreeSort·p0.50:   0.014 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   4: 0.016 ±(99.9%) 0.004 s/op
+                 TreeSort·p0.00:   0.012 s/op
+                 TreeSort·p0.50:   0.017 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   5: 0.013 ±(99.9%) 0.010 s/op
+                 TreeSort·p0.00:   0.007 s/op
+                 TreeSort·p0.50:   0.014 s/op
+                 TreeSort·p0.90:   0.018 s/op
+                 TreeSort·p0.95:   0.018 s/op
+                 TreeSort·p0.99:   0.018 s/op
+                 TreeSort·p0.999:  0.018 s/op
+                 TreeSort·p0.9999: 0.018 s/op
+                 TreeSort·p1.00:   0.018 s/op
+
+
+# Run progress: 96.29% complete, ETA 00:02:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 ±(99.9%) 0.009 s/op
+# Warmup Iteration   2: 0.012 ±(99.9%) 0.011 s/op
+# Warmup Iteration   3: 0.015 ±(99.9%) 0.007 s/op
+# Warmup Iteration   4: 0.013 ±(99.9%) 0.012 s/op
+# Warmup Iteration   5: 0.013 ±(99.9%) 0.011 s/op
+Iteration   1: 0.014 ±(99.9%) 0.014 s/op
+                 TreeSort·p0.00:   0.006 s/op
+                 TreeSort·p0.50:   0.015 s/op
+                 TreeSort·p0.90:   0.022 s/op
+                 TreeSort·p0.95:   0.022 s/op
+                 TreeSort·p0.99:   0.022 s/op
+                 TreeSort·p0.999:  0.022 s/op
+                 TreeSort·p0.9999: 0.022 s/op
+                 TreeSort·p1.00:   0.022 s/op
+
+Iteration   2: 0.014 ±(99.9%) 0.007 s/op
+                 TreeSort·p0.00:   0.010 s/op
+                 TreeSort·p0.50:   0.017 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   3: 0.015 ±(99.9%) 0.008 s/op
+                 TreeSort·p0.00:   0.009 s/op
+                 TreeSort·p0.50:   0.016 s/op
+                 TreeSort·p0.90:   0.018 s/op
+                 TreeSort·p0.95:   0.018 s/op
+                 TreeSort·p0.99:   0.018 s/op
+                 TreeSort·p0.999:  0.018 s/op
+                 TreeSort·p0.9999: 0.018 s/op
+                 TreeSort·p1.00:   0.018 s/op
+
+Iteration   4: 0.014 ±(99.9%) 0.007 s/op
+                 TreeSort·p0.00:   0.008 s/op
+                 TreeSort·p0.50:   0.015 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+Iteration   5: 0.014 ±(99.9%) 0.010 s/op
+                 TreeSort·p0.00:   0.005 s/op
+                 TreeSort·p0.50:   0.017 s/op
+                 TreeSort·p0.90:   0.017 s/op
+                 TreeSort·p0.95:   0.017 s/op
+                 TreeSort·p0.99:   0.017 s/op
+                 TreeSort·p0.999:  0.017 s/op
+                 TreeSort·p0.9999: 0.017 s/op
+                 TreeSort·p1.00:   0.017 s/op
+
+
+
+Result "treeTests.TreeSetAll.TreeSort":
+  N = 35
+  mean =      0.014 ±(99.9%) 0.002 s/op
+
+  Histogram, s/op:
+    [0.000, 0.003) = 0
+    [0.003, 0.005) = 0
+    [0.005, 0.008) = 3
+    [0.008, 0.010) = 2
+    [0.010, 0.013) = 5
+    [0.013, 0.015) = 5
+    [0.015, 0.018) = 16
+    [0.018, 0.020) = 3
+    [0.020, 0.023) = 1
+    [0.023, 0.025) = 0
+    [0.025, 0.028) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =      0.005 s/op
+     p(50.0000) =      0.016 s/op
+     p(90.0000) =      0.018 s/op
+     p(95.0000) =      0.019 s/op
+     p(99.0000) =      0.022 s/op
+     p(99.9000) =      0.022 s/op
+     p(99.9900) =      0.022 s/op
+     p(99.9990) =      0.022 s/op
+     p(99.9999) =      0.022 s/op
+    p(100.0000) =      0.022 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: treeTests.TreeSetAll.TreeInsert
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.279 s/op
+# Warmup Iteration   2: 0.391 s/op
+# Warmup Iteration   3: 0.274 s/op
+# Warmup Iteration   4: 0.450 s/op
+# Warmup Iteration   5: 0.284 s/op
+Iteration   1: 0.449 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.288 s/op
+# Warmup Iteration   2: 0.397 s/op
+# Warmup Iteration   3: 0.274 s/op
+# Warmup Iteration   4: 0.452 s/op
+# Warmup Iteration   5: 0.288 s/op
+Iteration   1: 0.439 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.291 s/op
+# Warmup Iteration   2: 0.385 s/op
+# Warmup Iteration   3: 0.269 s/op
+# Warmup Iteration   4: 0.457 s/op
+# Warmup Iteration   5: 0.290 s/op
+Iteration   1: 0.443 s/op
+
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: treeTests.TreeSetAll.TreeSearch
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.032 ms/op
+# Warmup Iteration   2: 0.016 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.014 ms/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.034 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.014 ms/op
+# Warmup Iteration   4: 0.022 ms/op
+# Warmup Iteration   5: 0.014 ms/op
+Iteration   1: 0.015 ms/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.038 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.013 ms/op
+# Warmup Iteration   5: 0.014 ms/op
+Iteration   1: 0.014 ms/op
+
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: treeTests.TreeSetAll.TreeSort
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.017 s/op
+# Warmup Iteration   2: 0.014 s/op
+# Warmup Iteration   3: 0.012 s/op
+# Warmup Iteration   4: 0.005 s/op
+# Warmup Iteration   5: 0.011 s/op
+Iteration   1: 0.011 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.016 s/op
+# Warmup Iteration   2: 0.016 s/op
+# Warmup Iteration   3: 0.013 s/op
+# Warmup Iteration   4: 0.005 s/op
+# Warmup Iteration   5: 0.012 s/op
+Iteration   1: 0.011 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.017 s/op
+# Warmup Iteration   2: 0.014 s/op
+# Warmup Iteration   3: 0.012 s/op
+# Warmup Iteration   4: 0.015 s/op
+# Warmup Iteration   5: 0.011 s/op
+Iteration   1: 0.011 s/op
+
+
+
+# Run complete. Total time: 00:57:37
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                             Mode  Cnt    Score    Error   Units
+treeTests.TreeSetAll.TreeInsert                      thrpt    5    2.779 ±  1.360   ops/s
+treeTests.TreeSetAll.TreeSearch                      thrpt    5   59.667 ± 22.147  ops/ms
+treeTests.TreeSetAll.TreeSort                        thrpt    5  120.684 ± 68.356   ops/s
+treeTests.TreeSetAll.TreeInsert                       avgt    5    0.426 ±  0.104    s/op
+treeTests.TreeSetAll.TreeSearch                       avgt    5    0.017 ±  0.012   ms/op
+treeTests.TreeSetAll.TreeSort                         avgt    5    0.008 ±  0.004    s/op
+treeTests.TreeSetAll.TreeInsert                     sample   29    0.361 ±  0.059    s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.00    sample         0.289             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.50    sample         0.311             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.90    sample         0.494             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.95    sample         0.526             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.99    sample         0.534             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.999   sample         0.534             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p0.9999  sample         0.534             s/op
+treeTests.TreeSetAll.TreeInsert:TreeInsert·p1.00    sample         0.534             s/op
+treeTests.TreeSetAll.TreeSearch                     sample   34    0.011 ±  0.001   ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.00    sample         0.009            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.50    sample         0.010            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.90    sample         0.013            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.95    sample         0.015            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.99    sample         0.016            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.999   sample         0.016            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p0.9999  sample         0.016            ms/op
+treeTests.TreeSetAll.TreeSearch:TreeSearch·p1.00    sample         0.016            ms/op
+treeTests.TreeSetAll.TreeSort                       sample   35    0.014 ±  0.002    s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.00        sample         0.005             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.50        sample         0.016             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.90        sample         0.018             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.95        sample         0.019             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.99        sample         0.022             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.999       sample         0.022             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p0.9999      sample         0.022             s/op
+treeTests.TreeSetAll.TreeSort:TreeSort·p1.00        sample         0.022             s/op
+treeTests.TreeSetAll.TreeInsert                         ss         0.443             s/op
+treeTests.TreeSetAll.TreeSearch                         ss         0.014            ms/op
+treeTests.TreeSetAll.TreeSort                           ss         0.011             s/op

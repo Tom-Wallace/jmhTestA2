@@ -1,0 +1,1176 @@
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashInsert
+
+# Run progress: 0.00% complete, ETA 00:45:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 6.364 ops/s
+# Warmup Iteration   2: 5.108 ops/s
+# Warmup Iteration   3: 8.543 ops/s
+# Warmup Iteration   4: 8.221 ops/s
+# Warmup Iteration   5: 4.870 ops/s
+Iteration   1: 5.452 ops/s
+Iteration   2: 6.945 ops/s
+Iteration   3: 4.879 ops/s
+Iteration   4: 5.771 ops/s
+Iteration   5: 5.815 ops/s
+
+# Run progress: 3.70% complete, ETA 00:45:07
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 7.363 ops/s
+# Warmup Iteration   2: 9.018 ops/s
+# Warmup Iteration   3: 7.596 ops/s
+# Warmup Iteration   4: 6.747 ops/s
+# Warmup Iteration   5: 7.055 ops/s
+Iteration   1: 6.533 ops/s
+Iteration   2: 5.907 ops/s
+Iteration   3: 5.566 ops/s
+Iteration   4: 5.541 ops/s
+Iteration   5: 7.519 ops/s
+
+# Run progress: 7.41% complete, ETA 00:43:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.340 ops/s
+# Warmup Iteration   2: 5.678 ops/s
+# Warmup Iteration   3: 6.327 ops/s
+# Warmup Iteration   4: 5.787 ops/s
+# Warmup Iteration   5: 6.491 ops/s
+Iteration   1: 6.040 ops/s
+Iteration   2: 7.115 ops/s
+Iteration   3: 6.310 ops/s
+Iteration   4: 9.704 ops/s
+Iteration   5: 5.014 ops/s
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashInsert":
+  6.837 ±(99.9%) 6.816 ops/s [Average]
+  (min, avg, max) = (5.014, 6.837, 9.704), stdev = 1.770
+  CI (99.9%): [0.020, 13.653] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSearch
+
+# Run progress: 11.11% complete, ETA 00:41:43
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 68.321 ops/ms
+# Warmup Iteration   2: 102.289 ops/ms
+# Warmup Iteration   3: 94.213 ops/ms
+# Warmup Iteration   4: 81.808 ops/ms
+# Warmup Iteration   5: 73.910 ops/ms
+Iteration   1: 98.395 ops/ms
+Iteration   2: 96.061 ops/ms
+Iteration   3: 78.023 ops/ms
+Iteration   4: 48.991 ops/ms
+Iteration   5: 131.483 ops/ms
+
+# Run progress: 14.81% complete, ETA 00:40:02
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 75.082 ops/ms
+# Warmup Iteration   2: 94.637 ops/ms
+# Warmup Iteration   3: 41.595 ops/ms
+# Warmup Iteration   4: 85.592 ops/ms
+# Warmup Iteration   5: 58.379 ops/ms
+Iteration   1: 64.713 ops/ms
+Iteration   2: 69.632 ops/ms
+Iteration   3: 83.333 ops/ms
+Iteration   4: 100.390 ops/ms
+Iteration   5: 59.426 ops/ms
+
+# Run progress: 18.52% complete, ETA 00:38:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 14.014 ops/ms
+# Warmup Iteration   2: 92.539 ops/ms
+# Warmup Iteration   3: 88.496 ops/ms
+# Warmup Iteration   4: 96.567 ops/ms
+# Warmup Iteration   5: 72.713 ops/ms
+Iteration   1: 66.964 ops/ms
+Iteration   2: 92.450 ops/ms
+Iteration   3: 96.051 ops/ms
+Iteration   4: 96.536 ops/ms
+Iteration   5: 39.474 ops/ms
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSearch":
+  78.295 ±(99.9%) 95.955 ops/ms [Average]
+  (min, avg, max) = (39.474, 78.295, 96.536), stdev = 24.919
+  CI (99.9%): [≈ 0, 174.250] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSort
+
+# Run progress: 22.22% complete, ETA 00:36:26
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 1.444 ops/s
+# Warmup Iteration   2: 1.752 ops/s
+# Warmup Iteration   3: 2.008 ops/s
+# Warmup Iteration   4: 1.930 ops/s
+# Warmup Iteration   5: 2.057 ops/s
+Iteration   1: 1.943 ops/s
+Iteration   2: 1.983 ops/s
+Iteration   3: 1.644 ops/s
+Iteration   4: 1.484 ops/s
+Iteration   5: 1.680 ops/s
+
+# Run progress: 25.93% complete, ETA 00:34:57
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 1.378 ops/s
+# Warmup Iteration   2: 1.807 ops/s
+# Warmup Iteration   3: 1.875 ops/s
+# Warmup Iteration   4: 1.226 ops/s
+# Warmup Iteration   5: 1.760 ops/s
+Iteration   1: 1.524 ops/s
+Iteration   2: 1.799 ops/s
+Iteration   3: 1.629 ops/s
+Iteration   4: 1.694 ops/s
+Iteration   5: 1.785 ops/s
+
+# Run progress: 29.63% complete, ETA 00:33:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.790 ops/s
+# Warmup Iteration   2: 1.718 ops/s
+# Warmup Iteration   3: 1.761 ops/s
+# Warmup Iteration   4: 1.757 ops/s
+# Warmup Iteration   5: 1.844 ops/s
+Iteration   1: 1.685 ops/s
+Iteration   2: 1.744 ops/s
+Iteration   3: 1.677 ops/s
+Iteration   4: 1.842 ops/s
+Iteration   5: 2.077 ops/s
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSort":
+  1.805 ±(99.9%) 0.639 ops/s [Average]
+  (min, avg, max) = (1.677, 1.805, 2.077), stdev = 0.166
+  CI (99.9%): [1.166, 2.444] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashInsert
+
+# Run progress: 33.33% complete, ETA 00:31:42
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.169 s/op
+# Warmup Iteration   2: 0.196 s/op
+# Warmup Iteration   3: 0.161 s/op
+# Warmup Iteration   4: 0.229 s/op
+# Warmup Iteration   5: 0.225 s/op
+Iteration   1: 0.154 s/op
+Iteration   2: 0.185 s/op
+Iteration   3: 0.169 s/op
+Iteration   4: 0.156 s/op
+Iteration   5: 0.215 s/op
+
+# Run progress: 37.04% complete, ETA 00:29:57
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.151 s/op
+# Warmup Iteration   2: 0.127 s/op
+# Warmup Iteration   3: 0.154 s/op
+# Warmup Iteration   4: 0.207 s/op
+# Warmup Iteration   5: 0.170 s/op
+Iteration   1: 0.213 s/op
+Iteration   2: 0.213 s/op
+Iteration   3: 0.170 s/op
+Iteration   4: 0.167 s/op
+Iteration   5: 0.183 s/op
+
+# Run progress: 40.74% complete, ETA 00:28:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.220 s/op
+# Warmup Iteration   2: 0.158 s/op
+# Warmup Iteration   3: 0.186 s/op
+# Warmup Iteration   4: 0.119 s/op
+# Warmup Iteration   5: 0.204 s/op
+Iteration   1: 0.116 s/op
+Iteration   2: 0.145 s/op
+Iteration   3: 0.151 s/op
+Iteration   4: 0.161 s/op
+Iteration   5: 0.172 s/op
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashInsert":
+  0.149 ±(99.9%) 0.082 s/op [Average]
+  (min, avg, max) = (0.116, 0.149, 0.172), stdev = 0.021
+  CI (99.9%): [0.067, 0.231] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSearch
+
+# Run progress: 44.44% complete, ETA 00:26:22
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.012 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.012 ms/op
+# Warmup Iteration   4: 0.010 ms/op
+# Warmup Iteration   5: 0.011 ms/op
+Iteration   1: 0.010 ms/op
+Iteration   2: 0.012 ms/op
+Iteration   3: 0.012 ms/op
+Iteration   4: 0.012 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 48.15% complete, ETA 00:24:36
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.010 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.018 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.024 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.010 ms/op
+Iteration   5: 0.014 ms/op
+
+# Run progress: 51.85% complete, ETA 00:22:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.014 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.016 ms/op
+# Warmup Iteration   4: 0.010 ms/op
+# Warmup Iteration   5: 0.011 ms/op
+Iteration   1: 0.012 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.017 ms/op
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSearch":
+  0.013 ±(99.9%) 0.011 ms/op [Average]
+  (min, avg, max) = (0.011, 0.013, 0.017), stdev = 0.003
+  CI (99.9%): [0.002, 0.025] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSort
+
+# Run progress: 55.55% complete, ETA 00:21:04
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.508 s/op
+# Warmup Iteration   2: 0.541 s/op
+# Warmup Iteration   3: 0.589 s/op
+# Warmup Iteration   4: 0.576 s/op
+# Warmup Iteration   5: 0.563 s/op
+Iteration   1: 0.523 s/op
+Iteration   2: 0.549 s/op
+Iteration   3: 0.688 s/op
+Iteration   4: 0.672 s/op
+Iteration   5: 0.684 s/op
+
+# Run progress: 59.26% complete, ETA 00:19:20
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 1.086 s/op
+# Warmup Iteration   2: 0.586 s/op
+# Warmup Iteration   3: 0.585 s/op
+# Warmup Iteration   4: 0.613 s/op
+# Warmup Iteration   5: 0.572 s/op
+Iteration   1: 0.544 s/op
+Iteration   2: 0.540 s/op
+Iteration   3: 0.597 s/op
+Iteration   4: 0.591 s/op
+Iteration   5: 0.603 s/op
+
+# Run progress: 62.96% complete, ETA 00:17:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.570 s/op
+# Warmup Iteration   2: 0.631 s/op
+# Warmup Iteration   3: 0.548 s/op
+# Warmup Iteration   4: 0.582 s/op
+# Warmup Iteration   5: 0.589 s/op
+Iteration   1: 0.567 s/op
+Iteration   2: 0.564 s/op
+Iteration   3: 0.551 s/op
+Iteration   4: 0.616 s/op
+Iteration   5: 0.553 s/op
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSort":
+  0.570 ±(99.9%) 0.102 s/op [Average]
+  (min, avg, max) = (0.551, 0.570, 0.616), stdev = 0.026
+  CI (99.9%): [0.469, 0.672] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashInsert
+
+# Run progress: 66.67% complete, ETA 00:15:52
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.129 ±(99.9%) 0.066 s/op
+# Warmup Iteration   2: 0.110 ±(99.9%) 0.107 s/op
+# Warmup Iteration   3: 0.154 ±(99.9%) 0.140 s/op
+# Warmup Iteration   4: 0.128 ±(99.9%) 0.100 s/op
+# Warmup Iteration   5: 0.137 ±(99.9%) 0.108 s/op
+Iteration   1: 0.137 ±(99.9%) 0.117 s/op
+                 LinkedHashInsert·p0.00:   0.071 s/op
+                 LinkedHashInsert·p0.50:   0.079 s/op
+                 LinkedHashInsert·p0.90:   0.353 s/op
+                 LinkedHashInsert·p0.95:   0.365 s/op
+                 LinkedHashInsert·p0.99:   0.365 s/op
+                 LinkedHashInsert·p0.999:  0.365 s/op
+                 LinkedHashInsert·p0.9999: 0.365 s/op
+                 LinkedHashInsert·p1.00:   0.365 s/op
+
+Iteration   2: 0.214 ±(99.9%) 0.190 s/op
+                 LinkedHashInsert·p0.00:   0.073 s/op
+                 LinkedHashInsert·p0.50:   0.094 s/op
+                 LinkedHashInsert·p0.90:   0.508 s/op
+                 LinkedHashInsert·p0.95:   0.538 s/op
+                 LinkedHashInsert·p0.99:   0.538 s/op
+                 LinkedHashInsert·p0.999:  0.538 s/op
+                 LinkedHashInsert·p0.9999: 0.538 s/op
+                 LinkedHashInsert·p1.00:   0.538 s/op
+
+Iteration   3: 0.191 ±(99.9%) 0.173 s/op
+                 LinkedHashInsert·p0.00:   0.080 s/op
+                 LinkedHashInsert·p0.50:   0.094 s/op
+                 LinkedHashInsert·p0.90:   0.468 s/op
+                 LinkedHashInsert·p0.95:   0.490 s/op
+                 LinkedHashInsert·p0.99:   0.490 s/op
+                 LinkedHashInsert·p0.999:  0.490 s/op
+                 LinkedHashInsert·p0.9999: 0.490 s/op
+                 LinkedHashInsert·p1.00:   0.490 s/op
+
+Iteration   4: 0.169 ±(99.9%) 0.103 s/op
+                 LinkedHashInsert·p0.00:   0.071 s/op
+                 LinkedHashInsert·p0.50:   0.186 s/op
+                 LinkedHashInsert·p0.90:   0.305 s/op
+                 LinkedHashInsert·p0.95:   0.312 s/op
+                 LinkedHashInsert·p0.99:   0.312 s/op
+                 LinkedHashInsert·p0.999:  0.312 s/op
+                 LinkedHashInsert·p0.9999: 0.312 s/op
+                 LinkedHashInsert·p1.00:   0.312 s/op
+
+Iteration   5: 0.210 ±(99.9%) 0.145 s/op
+                 LinkedHashInsert·p0.00:   0.071 s/op
+                 LinkedHashInsert·p0.50:   0.134 s/op
+                 LinkedHashInsert·p0.90:   0.391 s/op
+                 LinkedHashInsert·p0.95:   0.411 s/op
+                 LinkedHashInsert·p0.99:   0.411 s/op
+                 LinkedHashInsert·p0.999:  0.411 s/op
+                 LinkedHashInsert·p0.9999: 0.411 s/op
+                 LinkedHashInsert·p1.00:   0.411 s/op
+
+
+# Run progress: 70.37% complete, ETA 00:14:05
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.155 ±(99.9%) 0.146 s/op
+# Warmup Iteration   2: 0.122 ±(99.9%) 0.126 s/op
+# Warmup Iteration   3: 0.122 ±(99.9%) 0.095 s/op
+# Warmup Iteration   4: 0.192 ±(99.9%) 0.173 s/op
+# Warmup Iteration   5: 0.175 ±(99.9%) 0.125 s/op
+Iteration   1: 0.184 ±(99.9%) 0.175 s/op
+                 LinkedHashInsert·p0.00:   0.067 s/op
+                 LinkedHashInsert·p0.50:   0.081 s/op
+                 LinkedHashInsert·p0.90:   0.495 s/op
+                 LinkedHashInsert·p0.95:   0.522 s/op
+                 LinkedHashInsert·p0.99:   0.522 s/op
+                 LinkedHashInsert·p0.999:  0.522 s/op
+                 LinkedHashInsert·p0.9999: 0.522 s/op
+                 LinkedHashInsert·p1.00:   0.522 s/op
+
+Iteration   2: 0.177 ±(99.9%) 0.130 s/op
+                 LinkedHashInsert·p0.00:   0.068 s/op
+                 LinkedHashInsert·p0.50:   0.089 s/op
+                 LinkedHashInsert·p0.90:   0.362 s/op
+                 LinkedHashInsert·p0.95:   0.394 s/op
+                 LinkedHashInsert·p0.99:   0.394 s/op
+                 LinkedHashInsert·p0.999:  0.394 s/op
+                 LinkedHashInsert·p0.9999: 0.394 s/op
+                 LinkedHashInsert·p1.00:   0.394 s/op
+
+Iteration   3: 0.139 ±(99.9%) 0.127 s/op
+                 LinkedHashInsert·p0.00:   0.068 s/op
+                 LinkedHashInsert·p0.50:   0.086 s/op
+                 LinkedHashInsert·p0.90:   0.379 s/op
+                 LinkedHashInsert·p0.95:   0.390 s/op
+                 LinkedHashInsert·p0.99:   0.390 s/op
+                 LinkedHashInsert·p0.999:  0.390 s/op
+                 LinkedHashInsert·p0.9999: 0.390 s/op
+                 LinkedHashInsert·p1.00:   0.390 s/op
+
+Iteration   4: 0.207 ±(99.9%) 0.188 s/op
+                 LinkedHashInsert·p0.00:   0.085 s/op
+                 LinkedHashInsert·p0.50:   0.128 s/op
+                 LinkedHashInsert·p0.90:   0.472 s/op
+                 LinkedHashInsert·p0.95:   0.509 s/op
+                 LinkedHashInsert·p0.99:   0.509 s/op
+                 LinkedHashInsert·p0.999:  0.509 s/op
+                 LinkedHashInsert·p0.9999: 0.509 s/op
+                 LinkedHashInsert·p1.00:   0.509 s/op
+
+Iteration   5: 0.180 ±(99.9%) 0.113 s/op
+                 LinkedHashInsert·p0.00:   0.068 s/op
+                 LinkedHashInsert·p0.50:   0.196 s/op
+                 LinkedHashInsert·p0.90:   0.321 s/op
+                 LinkedHashInsert·p0.95:   0.344 s/op
+                 LinkedHashInsert·p0.99:   0.344 s/op
+                 LinkedHashInsert·p0.999:  0.344 s/op
+                 LinkedHashInsert·p0.9999: 0.344 s/op
+                 LinkedHashInsert·p1.00:   0.344 s/op
+
+
+# Run progress: 74.07% complete, ETA 00:12:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.127 ±(99.9%) 0.058 s/op
+# Warmup Iteration   2: 0.237 ±(99.9%) 0.182 s/op
+# Warmup Iteration   3: 0.219 ±(99.9%) 0.212 s/op
+# Warmup Iteration   4: 0.161 ±(99.9%) 0.111 s/op
+# Warmup Iteration   5: 0.157 ±(99.9%) 0.104 s/op
+Iteration   1: 0.129 ±(99.9%) 0.110 s/op
+                 LinkedHashInsert·p0.00:   0.072 s/op
+                 LinkedHashInsert·p0.50:   0.085 s/op
+                 LinkedHashInsert·p0.90:   0.356 s/op
+                 LinkedHashInsert·p0.95:   0.365 s/op
+                 LinkedHashInsert·p0.99:   0.365 s/op
+                 LinkedHashInsert·p0.999:  0.365 s/op
+                 LinkedHashInsert·p0.9999: 0.365 s/op
+                 LinkedHashInsert·p1.00:   0.365 s/op
+
+Iteration   2: 0.201 ±(99.9%) 0.164 s/op
+                 LinkedHashInsert·p0.00:   0.071 s/op
+                 LinkedHashInsert·p0.50:   0.116 s/op
+                 LinkedHashInsert·p0.90:   0.444 s/op
+                 LinkedHashInsert·p0.95:   0.520 s/op
+                 LinkedHashInsert·p0.99:   0.520 s/op
+                 LinkedHashInsert·p0.999:  0.520 s/op
+                 LinkedHashInsert·p0.9999: 0.520 s/op
+                 LinkedHashInsert·p1.00:   0.520 s/op
+
+Iteration   3: 0.176 ±(99.9%) 0.134 s/op
+                 LinkedHashInsert·p0.00:   0.077 s/op
+                 LinkedHashInsert·p0.50:   0.115 s/op
+                 LinkedHashInsert·p0.90:   0.386 s/op
+                 LinkedHashInsert·p0.95:   0.387 s/op
+                 LinkedHashInsert·p0.99:   0.387 s/op
+                 LinkedHashInsert·p0.999:  0.387 s/op
+                 LinkedHashInsert·p0.9999: 0.387 s/op
+                 LinkedHashInsert·p1.00:   0.387 s/op
+
+Iteration   4: 0.173 ±(99.9%) 0.159 s/op
+                 LinkedHashInsert·p0.00:   0.070 s/op
+                 LinkedHashInsert·p0.50:   0.112 s/op
+                 LinkedHashInsert·p0.90:   0.414 s/op
+                 LinkedHashInsert·p0.95:   0.450 s/op
+                 LinkedHashInsert·p0.99:   0.450 s/op
+                 LinkedHashInsert·p0.999:  0.450 s/op
+                 LinkedHashInsert·p0.9999: 0.450 s/op
+                 LinkedHashInsert·p1.00:   0.450 s/op
+
+Iteration   5: 0.177 ±(99.9%) 0.172 s/op
+                 LinkedHashInsert·p0.00:   0.084 s/op
+                 LinkedHashInsert·p0.50:   0.103 s/op
+                 LinkedHashInsert·p0.90:   0.420 s/op
+                 LinkedHashInsert·p0.95:   0.439 s/op
+                 LinkedHashInsert·p0.99:   0.439 s/op
+                 LinkedHashInsert·p0.999:  0.439 s/op
+                 LinkedHashInsert·p0.9999: 0.439 s/op
+                 LinkedHashInsert·p1.00:   0.439 s/op
+
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashInsert":
+  N = 67
+  mean =      0.171 ±(99.9%) 0.053 s/op
+
+  Histogram, s/op:
+    [0.000, 0.050) = 0
+    [0.050, 0.100) = 30
+    [0.100, 0.150) = 17
+    [0.150, 0.200) = 0
+    [0.200, 0.250) = 3
+    [0.250, 0.300) = 3
+    [0.300, 0.350) = 1
+    [0.350, 0.400) = 10
+    [0.400, 0.450) = 2
+    [0.450, 0.500) = 0
+    [0.500, 0.550) = 1
+    [0.550, 0.600) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =      0.070 s/op
+     p(50.0000) =      0.104 s/op
+     p(90.0000) =      0.375 s/op
+     p(95.0000) =      0.418 s/op
+     p(99.0000) =      0.520 s/op
+     p(99.9000) =      0.520 s/op
+     p(99.9900) =      0.520 s/op
+     p(99.9990) =      0.520 s/op
+     p(99.9999) =      0.520 s/op
+    p(100.0000) =      0.520 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSearch
+
+# Run progress: 77.78% complete, ETA 00:10:33
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.014 ±(99.9%) 0.016 ms/op
+# Warmup Iteration   2: 0.014 ±(99.9%) 0.016 ms/op
+# Warmup Iteration   3: 0.012 ±(99.9%) 0.004 ms/op
+# Warmup Iteration   4: 0.010 ±(99.9%) 0.001 ms/op
+# Warmup Iteration   5: 0.010 ±(99.9%) 0.001 ms/op
+Iteration   1: 0.011 ±(99.9%) 0.006 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.011 ms/op
+                 LinkedHashSearch·p0.95:   0.036 ms/op
+                 LinkedHashSearch·p0.99:   0.036 ms/op
+                 LinkedHashSearch·p0.999:  0.036 ms/op
+                 LinkedHashSearch·p0.9999: 0.036 ms/op
+                 LinkedHashSearch·p1.00:   0.036 ms/op
+
+Iteration   2: 0.010 ±(99.9%) 0.001 ms/op
+                 LinkedHashSearch·p0.00:   0.008 ms/op
+                 LinkedHashSearch·p0.50:   0.009 ms/op
+                 LinkedHashSearch·p0.90:   0.012 ms/op
+                 LinkedHashSearch·p0.95:   0.012 ms/op
+                 LinkedHashSearch·p0.99:   0.012 ms/op
+                 LinkedHashSearch·p0.999:  0.012 ms/op
+                 LinkedHashSearch·p0.9999: 0.012 ms/op
+                 LinkedHashSearch·p1.00:   0.012 ms/op
+
+Iteration   3: 0.011 ±(99.9%) 0.003 ms/op
+                 LinkedHashSearch·p0.00:   0.008 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.016 ms/op
+                 LinkedHashSearch·p0.95:   0.022 ms/op
+                 LinkedHashSearch·p0.99:   0.022 ms/op
+                 LinkedHashSearch·p0.999:  0.022 ms/op
+                 LinkedHashSearch·p0.9999: 0.022 ms/op
+                 LinkedHashSearch·p1.00:   0.022 ms/op
+
+Iteration   4: 0.013 ±(99.9%) 0.008 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.033 ms/op
+                 LinkedHashSearch·p0.95:   0.040 ms/op
+                 LinkedHashSearch·p0.99:   0.040 ms/op
+                 LinkedHashSearch·p0.999:  0.040 ms/op
+                 LinkedHashSearch·p0.9999: 0.040 ms/op
+                 LinkedHashSearch·p1.00:   0.040 ms/op
+
+Iteration   5: 0.014 ±(99.9%) 0.012 ms/op
+                 LinkedHashSearch·p0.00:   0.006 ms/op
+                 LinkedHashSearch·p0.50:   0.008 ms/op
+                 LinkedHashSearch·p0.90:   0.043 ms/op
+                 LinkedHashSearch·p0.95:   0.048 ms/op
+                 LinkedHashSearch·p0.99:   0.048 ms/op
+                 LinkedHashSearch·p0.999:  0.048 ms/op
+                 LinkedHashSearch·p0.9999: 0.048 ms/op
+                 LinkedHashSearch·p1.00:   0.048 ms/op
+
+
+# Run progress: 81.48% complete, ETA 00:08:47
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.013 ±(99.9%) 0.012 ms/op
+# Warmup Iteration   2: 0.011 ±(99.9%) 0.002 ms/op
+# Warmup Iteration   3: 0.012 ±(99.9%) 0.004 ms/op
+# Warmup Iteration   4: 0.012 ±(99.9%) 0.005 ms/op
+# Warmup Iteration   5: 0.013 ±(99.9%) 0.008 ms/op
+Iteration   1: 0.017 ±(99.9%) 0.026 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.011 ms/op
+                 LinkedHashSearch·p0.90:   0.044 ms/op
+                 LinkedHashSearch·p0.95:   0.113 ms/op
+                 LinkedHashSearch·p0.99:   0.113 ms/op
+                 LinkedHashSearch·p0.999:  0.113 ms/op
+                 LinkedHashSearch·p0.9999: 0.113 ms/op
+                 LinkedHashSearch·p1.00:   0.113 ms/op
+
+Iteration   2: 0.010 ±(99.9%) 0.002 ms/op
+                 LinkedHashSearch·p0.00:   0.008 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.013 ms/op
+                 LinkedHashSearch·p0.95:   0.014 ms/op
+                 LinkedHashSearch·p0.99:   0.014 ms/op
+                 LinkedHashSearch·p0.999:  0.014 ms/op
+                 LinkedHashSearch·p0.9999: 0.014 ms/op
+                 LinkedHashSearch·p1.00:   0.014 ms/op
+
+Iteration   3: 0.014 ±(99.9%) 0.012 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.011 ms/op
+                 LinkedHashSearch·p0.90:   0.026 ms/op
+                 LinkedHashSearch·p0.95:   0.062 ms/op
+                 LinkedHashSearch·p0.99:   0.062 ms/op
+                 LinkedHashSearch·p0.999:  0.062 ms/op
+                 LinkedHashSearch·p0.9999: 0.062 ms/op
+                 LinkedHashSearch·p1.00:   0.062 ms/op
+
+Iteration   4: 0.014 ±(99.9%) 0.018 ms/op
+                 LinkedHashSearch·p0.00:   0.007 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.036 ms/op
+                 LinkedHashSearch·p0.95:   0.079 ms/op
+                 LinkedHashSearch·p0.99:   0.079 ms/op
+                 LinkedHashSearch·p0.999:  0.079 ms/op
+                 LinkedHashSearch·p0.9999: 0.079 ms/op
+                 LinkedHashSearch·p1.00:   0.079 ms/op
+
+Iteration   5: 0.015 ±(99.9%) 0.016 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.011 ms/op
+                 LinkedHashSearch·p0.90:   0.043 ms/op
+                 LinkedHashSearch·p0.95:   0.064 ms/op
+                 LinkedHashSearch·p0.99:   0.064 ms/op
+                 LinkedHashSearch·p0.999:  0.064 ms/op
+                 LinkedHashSearch·p0.9999: 0.064 ms/op
+                 LinkedHashSearch·p1.00:   0.064 ms/op
+
+
+# Run progress: 85.18% complete, ETA 00:07:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.025 ±(99.9%) 0.032 ms/op
+# Warmup Iteration   2: 0.012 ±(99.9%) 0.004 ms/op
+# Warmup Iteration   3: 0.023 ±(99.9%) 0.036 ms/op
+# Warmup Iteration   4: 0.012 ±(99.9%) 0.003 ms/op
+# Warmup Iteration   5: 0.011 ±(99.9%) 0.001 ms/op
+Iteration   1: 0.011 ±(99.9%) 0.003 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.015 ms/op
+                 LinkedHashSearch·p0.95:   0.021 ms/op
+                 LinkedHashSearch·p0.99:   0.021 ms/op
+                 LinkedHashSearch·p0.999:  0.021 ms/op
+                 LinkedHashSearch·p0.9999: 0.021 ms/op
+                 LinkedHashSearch·p1.00:   0.021 ms/op
+
+Iteration   2: 0.016 ±(99.9%) 0.016 ms/op
+                 LinkedHashSearch·p0.00:   0.008 ms/op
+                 LinkedHashSearch·p0.50:   0.009 ms/op
+                 LinkedHashSearch·p0.90:   0.063 ms/op
+                 LinkedHashSearch·p0.95:   0.065 ms/op
+                 LinkedHashSearch·p0.99:   0.065 ms/op
+                 LinkedHashSearch·p0.999:  0.065 ms/op
+                 LinkedHashSearch·p0.9999: 0.065 ms/op
+                 LinkedHashSearch·p1.00:   0.065 ms/op
+
+Iteration   3: 0.010 ±(99.9%) 0.001 ms/op
+                 LinkedHashSearch·p0.00:   0.008 ms/op
+                 LinkedHashSearch·p0.50:   0.010 ms/op
+                 LinkedHashSearch·p0.90:   0.011 ms/op
+                 LinkedHashSearch·p0.95:   0.011 ms/op
+                 LinkedHashSearch·p0.99:   0.011 ms/op
+                 LinkedHashSearch·p0.999:  0.011 ms/op
+                 LinkedHashSearch·p0.9999: 0.011 ms/op
+                 LinkedHashSearch·p1.00:   0.011 ms/op
+
+Iteration   4: 0.011 ±(99.9%) 0.003 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.011 ms/op
+                 LinkedHashSearch·p0.90:   0.016 ms/op
+                 LinkedHashSearch·p0.95:   0.020 ms/op
+                 LinkedHashSearch·p0.99:   0.020 ms/op
+                 LinkedHashSearch·p0.999:  0.020 ms/op
+                 LinkedHashSearch·p0.9999: 0.020 ms/op
+                 LinkedHashSearch·p1.00:   0.020 ms/op
+
+Iteration   5: 0.039 ±(99.9%) 0.078 ms/op
+                 LinkedHashSearch·p0.00:   0.009 ms/op
+                 LinkedHashSearch·p0.50:   0.011 ms/op
+                 LinkedHashSearch·p0.90:   0.177 ms/op
+                 LinkedHashSearch·p0.95:   0.234 ms/op
+                 LinkedHashSearch·p0.99:   0.234 ms/op
+                 LinkedHashSearch·p0.999:  0.234 ms/op
+                 LinkedHashSearch·p0.9999: 0.234 ms/op
+                 LinkedHashSearch·p1.00:   0.234 ms/op
+
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSearch":
+  N = 83
+  mean =      0.016 ±(99.9%) 0.011 ms/op
+
+  Histogram, ms/op:
+    [0.000, 0.025) = 78
+    [0.025, 0.050) = 0
+    [0.050, 0.075) = 2
+    [0.075, 0.100) = 2
+    [0.100, 0.125) = 0
+    [0.125, 0.150) = 0
+    [0.150, 0.175) = 0
+    [0.175, 0.200) = 0
+    [0.200, 0.225) = 0
+    [0.225, 0.250) = 1
+    [0.250, 0.275) = 0
+    [0.275, 0.300) = 0
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.008 ms/op
+     p(50.0000) =      0.010 ms/op
+     p(90.0000) =      0.015 ms/op
+     p(95.0000) =      0.064 ms/op
+     p(99.0000) =      0.234 ms/op
+     p(99.9000) =      0.234 ms/op
+     p(99.9900) =      0.234 ms/op
+     p(99.9990) =      0.234 ms/op
+     p(99.9999) =      0.234 ms/op
+    p(100.0000) =      0.234 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSort
+
+# Run progress: 88.89% complete, ETA 00:05:16
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.801 ±(99.9%) 1.060 s/op
+# Warmup Iteration   2: 0.595 ±(99.9%) 0.350 s/op
+# Warmup Iteration   3: 0.589 ±(99.9%) 0.240 s/op
+# Warmup Iteration   4: 0.571 ±(99.9%) 0.145 s/op
+# Warmup Iteration   5: 0.522 ±(99.9%) 0.113 s/op
+Iteration   1: 0.462 ±(99.9%) 0.025 s/op
+                 LinkedHashSort·p0.00:   0.434 s/op
+                 LinkedHashSort·p0.50:   0.466 s/op
+                 LinkedHashSort·p0.90:   0.490 s/op
+                 LinkedHashSort·p0.95:   0.494 s/op
+                 LinkedHashSort·p0.99:   0.494 s/op
+                 LinkedHashSort·p0.999:  0.494 s/op
+                 LinkedHashSort·p0.9999: 0.494 s/op
+                 LinkedHashSort·p1.00:   0.494 s/op
+
+Iteration   2: 0.483 ±(99.9%) 0.066 s/op
+                 LinkedHashSort·p0.00:   0.428 s/op
+                 LinkedHashSort·p0.50:   0.475 s/op
+                 LinkedHashSort·p0.90:   0.563 s/op
+                 LinkedHashSort·p0.95:   0.565 s/op
+                 LinkedHashSort·p0.99:   0.565 s/op
+                 LinkedHashSort·p0.999:  0.565 s/op
+                 LinkedHashSort·p0.9999: 0.565 s/op
+                 LinkedHashSort·p1.00:   0.565 s/op
+
+Iteration   3: 0.483 ±(99.9%) 0.106 s/op
+                 LinkedHashSort·p0.00:   0.435 s/op
+                 LinkedHashSort·p0.50:   0.454 s/op
+                 LinkedHashSort·p0.90:   0.643 s/op
+                 LinkedHashSort·p0.95:   0.651 s/op
+                 LinkedHashSort·p0.99:   0.651 s/op
+                 LinkedHashSort·p0.999:  0.651 s/op
+                 LinkedHashSort·p0.9999: 0.651 s/op
+                 LinkedHashSort·p1.00:   0.651 s/op
+
+Iteration   4: 0.569 ±(99.9%) 0.168 s/op
+                 LinkedHashSort·p0.00:   0.448 s/op
+                 LinkedHashSort·p0.50:   0.551 s/op
+                 LinkedHashSort·p0.90:   0.769 s/op
+                 LinkedHashSort·p0.95:   0.769 s/op
+                 LinkedHashSort·p0.99:   0.769 s/op
+                 LinkedHashSort·p0.999:  0.769 s/op
+                 LinkedHashSort·p0.9999: 0.769 s/op
+                 LinkedHashSort·p1.00:   0.769 s/op
+
+Iteration   5: 0.514 ±(99.9%) 0.086 s/op
+                 LinkedHashSort·p0.00:   0.449 s/op
+                 LinkedHashSort·p0.50:   0.504 s/op
+                 LinkedHashSort·p0.90:   0.601 s/op
+                 LinkedHashSort·p0.95:   0.601 s/op
+                 LinkedHashSort·p0.99:   0.601 s/op
+                 LinkedHashSort·p0.999:  0.601 s/op
+                 LinkedHashSort·p0.9999: 0.601 s/op
+                 LinkedHashSort·p1.00:   0.601 s/op
+
+
+# Run progress: 92.59% complete, ETA 00:03:31
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.488 ±(99.9%) 0.113 s/op
+# Warmup Iteration   2: 0.503 ±(99.9%) 0.088 s/op
+# Warmup Iteration   3: 0.496 ±(99.9%) 0.092 s/op
+# Warmup Iteration   4: 0.493 ±(99.9%) 0.085 s/op
+# Warmup Iteration   5: 0.532 ±(99.9%) 0.127 s/op
+Iteration   1: 0.514 ±(99.9%) 0.082 s/op
+                 LinkedHashSort·p0.00:   0.463 s/op
+                 LinkedHashSort·p0.50:   0.493 s/op
+                 LinkedHashSort·p0.90:   0.606 s/op
+                 LinkedHashSort·p0.95:   0.606 s/op
+                 LinkedHashSort·p0.99:   0.606 s/op
+                 LinkedHashSort·p0.999:  0.606 s/op
+                 LinkedHashSort·p0.9999: 0.606 s/op
+                 LinkedHashSort·p1.00:   0.606 s/op
+
+Iteration   2: 0.453 ±(99.9%) 0.039 s/op
+                 LinkedHashSort·p0.00:   0.415 s/op
+                 LinkedHashSort·p0.50:   0.462 s/op
+                 LinkedHashSort·p0.90:   0.499 s/op
+                 LinkedHashSort·p0.95:   0.506 s/op
+                 LinkedHashSort·p0.99:   0.506 s/op
+                 LinkedHashSort·p0.999:  0.506 s/op
+                 LinkedHashSort·p0.9999: 0.506 s/op
+                 LinkedHashSort·p1.00:   0.506 s/op
+
+Iteration   3: 0.509 ±(99.9%) 0.158 s/op
+                 LinkedHashSort·p0.00:   0.437 s/op
+                 LinkedHashSort·p0.50:   0.459 s/op
+                 LinkedHashSort·p0.90:   0.742 s/op
+                 LinkedHashSort·p0.95:   0.755 s/op
+                 LinkedHashSort·p0.99:   0.755 s/op
+                 LinkedHashSort·p0.999:  0.755 s/op
+                 LinkedHashSort·p0.9999: 0.755 s/op
+                 LinkedHashSort·p1.00:   0.755 s/op
+
+Iteration   4: 0.628 ±(99.9%) 0.250 s/op
+                 LinkedHashSort·p0.00:   0.494 s/op
+                 LinkedHashSort·p0.50:   0.600 s/op
+                 LinkedHashSort·p0.90:   0.886 s/op
+                 LinkedHashSort·p0.95:   0.886 s/op
+                 LinkedHashSort·p0.99:   0.886 s/op
+                 LinkedHashSort·p0.999:  0.886 s/op
+                 LinkedHashSort·p0.9999: 0.886 s/op
+                 LinkedHashSort·p1.00:   0.886 s/op
+
+Iteration   5: 0.612 ±(99.9%) 0.173 s/op
+                 LinkedHashSort·p0.00:   0.481 s/op
+                 LinkedHashSort·p0.50:   0.589 s/op
+                 LinkedHashSort·p0.90:   0.801 s/op
+                 LinkedHashSort·p0.95:   0.801 s/op
+                 LinkedHashSort·p0.99:   0.801 s/op
+                 LinkedHashSort·p0.999:  0.801 s/op
+                 LinkedHashSort·p0.9999: 0.801 s/op
+                 LinkedHashSort·p1.00:   0.801 s/op
+
+
+# Run progress: 96.29% complete, ETA 00:01:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.543 ±(99.9%) 0.177 s/op
+# Warmup Iteration   2: 0.463 ±(99.9%) 0.068 s/op
+# Warmup Iteration   3: 0.473 ±(99.9%) 0.046 s/op
+# Warmup Iteration   4: 0.454 ±(99.9%) 0.043 s/op
+# Warmup Iteration   5: 0.444 ±(99.9%) 0.018 s/op
+Iteration   1: 0.447 ±(99.9%) 0.060 s/op
+                 LinkedHashSort·p0.00:   0.411 s/op
+                 LinkedHashSort·p0.50:   0.438 s/op
+                 LinkedHashSort·p0.90:   0.545 s/op
+                 LinkedHashSort·p0.95:   0.566 s/op
+                 LinkedHashSort·p0.99:   0.566 s/op
+                 LinkedHashSort·p0.999:  0.566 s/op
+                 LinkedHashSort·p0.9999: 0.566 s/op
+                 LinkedHashSort·p1.00:   0.566 s/op
+
+Iteration   2: 0.508 ±(99.9%) 0.134 s/op
+                 LinkedHashSort·p0.00:   0.413 s/op
+                 LinkedHashSort·p0.50:   0.470 s/op
+                 LinkedHashSort·p0.90:   0.676 s/op
+                 LinkedHashSort·p0.95:   0.684 s/op
+                 LinkedHashSort·p0.99:   0.684 s/op
+                 LinkedHashSort·p0.999:  0.684 s/op
+                 LinkedHashSort·p0.9999: 0.684 s/op
+                 LinkedHashSort·p1.00:   0.684 s/op
+
+Iteration   3: 0.491 ±(99.9%) 0.098 s/op
+                 LinkedHashSort·p0.00:   0.426 s/op
+                 LinkedHashSort·p0.50:   0.470 s/op
+                 LinkedHashSort·p0.90:   0.625 s/op
+                 LinkedHashSort·p0.95:   0.633 s/op
+                 LinkedHashSort·p0.99:   0.633 s/op
+                 LinkedHashSort·p0.999:  0.633 s/op
+                 LinkedHashSort·p0.9999: 0.633 s/op
+                 LinkedHashSort·p1.00:   0.633 s/op
+
+Iteration   4: 0.456 ±(99.9%) 0.077 s/op
+                 LinkedHashSort·p0.00:   0.414 s/op
+                 LinkedHashSort·p0.50:   0.445 s/op
+                 LinkedHashSort·p0.90:   0.586 s/op
+                 LinkedHashSort·p0.95:   0.618 s/op
+                 LinkedHashSort·p0.99:   0.618 s/op
+                 LinkedHashSort·p0.999:  0.618 s/op
+                 LinkedHashSort·p0.9999: 0.618 s/op
+                 LinkedHashSort·p1.00:   0.618 s/op
+
+Iteration   5: 0.463 ±(99.9%) 0.053 s/op
+                 LinkedHashSort·p0.00:   0.415 s/op
+                 LinkedHashSort·p0.50:   0.451 s/op
+                 LinkedHashSort·p0.90:   0.533 s/op
+                 LinkedHashSort·p0.95:   0.540 s/op
+                 LinkedHashSort·p0.99:   0.540 s/op
+                 LinkedHashSort·p0.999:  0.540 s/op
+                 LinkedHashSort·p0.9999: 0.540 s/op
+                 LinkedHashSort·p1.00:   0.540 s/op
+
+
+
+Result "linkedHashTests.LinkedHashAll.LinkedHashSort":
+  N = 53
+  mean =      0.472 ±(99.9%) 0.030 s/op
+
+  Histogram, s/op:
+    [0.400, 0.425) = 7
+    [0.425, 0.450) = 19
+    [0.450, 0.475) = 12
+    [0.475, 0.500) = 3
+    [0.500, 0.525) = 3
+    [0.525, 0.550) = 2
+    [0.550, 0.575) = 2
+    [0.575, 0.600) = 1
+    [0.600, 0.625) = 2
+    [0.625, 0.650) = 1
+    [0.650, 0.675) = 0
+    [0.675, 0.700) = 1
+
+  Percentiles, s/op:
+      p(0.0000) =      0.411 s/op
+     p(50.0000) =      0.450 s/op
+     p(90.0000) =      0.575 s/op
+     p(95.0000) =      0.622 s/op
+     p(99.0000) =      0.684 s/op
+     p(99.9000) =      0.684 s/op
+     p(99.9900) =      0.684 s/op
+     p(99.9990) =      0.684 s/op
+     p(99.9999) =      0.684 s/op
+    p(100.0000) =      0.684 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashInsert
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.182 s/op
+# Warmup Iteration   2: 0.191 s/op
+# Warmup Iteration   3: 0.079 s/op
+# Warmup Iteration   4: 0.078 s/op
+# Warmup Iteration   5: 0.081 s/op
+Iteration   1: 0.122 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.255 s/op
+# Warmup Iteration   2: 0.116 s/op
+# Warmup Iteration   3: 0.078 s/op
+# Warmup Iteration   4: 0.080 s/op
+# Warmup Iteration   5: 0.093 s/op
+Iteration   1: 0.117 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.200 s/op
+# Warmup Iteration   2: 0.192 s/op
+# Warmup Iteration   3: 0.080 s/op
+# Warmup Iteration   4: 0.078 s/op
+# Warmup Iteration   5: 0.078 s/op
+Iteration   1: 0.114 s/op
+
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSearch
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.039 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.009 ms/op
+# Warmup Iteration   4: 0.009 ms/op
+# Warmup Iteration   5: 0.009 ms/op
+Iteration   1: 0.009 ms/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.043 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.010 ms/op
+# Warmup Iteration   4: 0.009 ms/op
+# Warmup Iteration   5: 0.009 ms/op
+Iteration   1: 0.010 ms/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.041 ms/op
+# Warmup Iteration   2: 0.009 ms/op
+# Warmup Iteration   3: 0.009 ms/op
+# Warmup Iteration   4: 0.009 ms/op
+# Warmup Iteration   5: 0.009 ms/op
+Iteration   1: 0.009 ms/op
+
+
+
+# JMH version: 1.36
+# VM version: JDK 17, Java HotSpot(TM) 64-Bit Server VM, 17+35-LTS-2724
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: linkedHashTests.LinkedHashAll.LinkedHashSort
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 2
+# Warmup Iteration   1: 0.553 s/op
+# Warmup Iteration   2: 0.455 s/op
+# Warmup Iteration   3: 0.436 s/op
+# Warmup Iteration   4: 0.480 s/op
+# Warmup Iteration   5: 0.650 s/op
+Iteration   1: 0.431 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 2 of 2
+# Warmup Iteration   1: 0.521 s/op
+# Warmup Iteration   2: 0.450 s/op
+# Warmup Iteration   3: 0.444 s/op
+# Warmup Iteration   4: 0.464 s/op
+# Warmup Iteration   5: 0.452 s/op
+Iteration   1: 0.440 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.580 s/op
+# Warmup Iteration   2: 0.488 s/op
+# Warmup Iteration   3: 0.507 s/op
+# Warmup Iteration   4: 0.517 s/op
+# Warmup Iteration   5: 0.488 s/op
+Iteration   1: 0.463 s/op
+
+
+
+# Run complete. Total time: 00:48:21
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                                  Mode  Cnt   Score    Error   Units
+linkedHashTests.LinkedHashAll.LinkedHashInsert                            thrpt    5   6.837 ±  6.816   ops/s
+linkedHashTests.LinkedHashAll.LinkedHashSearch                            thrpt    5  78.295 ± 95.955  ops/ms
+linkedHashTests.LinkedHashAll.LinkedHashSort                              thrpt    5   1.805 ±  0.639   ops/s
+linkedHashTests.LinkedHashAll.LinkedHashInsert                             avgt    5   0.149 ±  0.082    s/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch                             avgt    5   0.013 ±  0.011   ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSort                               avgt    5   0.570 ±  0.102    s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert                           sample   67   0.171 ±  0.053    s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.00    sample        0.070             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.50    sample        0.104             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.90    sample        0.375             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.95    sample        0.418             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.99    sample        0.520             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.999   sample        0.520             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p0.9999  sample        0.520             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert:LinkedHashInsert·p1.00    sample        0.520             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch                           sample   83   0.016 ±  0.011   ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.00    sample        0.008            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.50    sample        0.010            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.90    sample        0.015            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.95    sample        0.064            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.99    sample        0.234            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.999   sample        0.234            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p0.9999  sample        0.234            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch:LinkedHashSearch·p1.00    sample        0.234            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSort                             sample   53   0.472 ±  0.030    s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.00        sample        0.411             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.50        sample        0.450             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.90        sample        0.575             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.95        sample        0.622             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.99        sample        0.684             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.999       sample        0.684             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p0.9999      sample        0.684             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSort:LinkedHashSort·p1.00        sample        0.684             s/op
+linkedHashTests.LinkedHashAll.LinkedHashInsert                               ss        0.114             s/op
+linkedHashTests.LinkedHashAll.LinkedHashSearch                               ss        0.009            ms/op
+linkedHashTests.LinkedHashAll.LinkedHashSort                                 ss        0.463             s/op

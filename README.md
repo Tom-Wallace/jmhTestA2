@@ -31,13 +31,13 @@ An Excel sheet Results.xlsx comparing the results is available in the SampleOutp
 
 It is observed that for throughput, average time and sample measurements, the HashInsert performed best, followed closely by the LinkedHashInsert, with TreeInsert being the slowest. For the single shot measurement, the LinkedHashInsert was fastest, followed by the HashInsert and the TreeInsert in that order. The LinkedHashInsert had the highest margin of error relative to its measurements, the highest being its throughput measurement with a margin of error of 6.816 compared to its 6.837 measurement.
 
-###Search
+### Search
 
 ![Screenshot_2577](https://user-images.githubusercontent.com/36076870/207176828-eba5e3cf-878e-49e6-a855-1dc6762a9b69.png)
 
 It is observed that for throughput, the LinkedHashSearch has the best performance, but also the highest error, higher than even the measurement. The throughput performance is followed by the HashSearch and the TreeSearch, with the same ranking for the single shot measurements. For the average time, the HashSearch performed best, followed by the LinkedHashSearch and Treesearch. For the sample, the TreeSearch performed best, followed closely by the HashSearch and then the LinkedHashSearch.
 
-###Sort
+### Sort
 
 ![Screenshot_2578](https://user-images.githubusercontent.com/36076870/207186547-c7115133-b8c4-4c7b-8a07-c8bef9a78535.png)
 
